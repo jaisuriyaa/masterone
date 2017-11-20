@@ -3,10 +3,10 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.0</ProjectVersion>
     <DockerTargetOS>Windows</DockerTargetOS>
-    <ProjectGuid>47e537db-f918-468c-92f2-c1be9177086d</ProjectGuid>
+    <ProjectGuid>3566c08a-487b-405b-9ed3-6a385ac0c9b9</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>http://{ServiceIPAddress}</DockerServiceUrl>
-    <DockerServiceName>webapp</DockerServiceName>
+    <DockerServiceName>webapplication5</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.ci.build.yml" />

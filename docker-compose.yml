@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  webapp:
-    image: webapp
+  webapplication5:
+    image: webapplication5
     build:
-      context: .\WebApp
+      context: .\WebApplication5
       dockerfile: Dockerfile

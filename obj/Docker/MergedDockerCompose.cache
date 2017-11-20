@@ -3,11 +3,11 @@ networks:
     external:
       name: nat
 services:
-  webapp:
+  webapplication5:
     build:
-      context: c:\Users\tfssetup\source\repos\WebApp\WebApp
+      context: c:\users\tfssetup\source\repos\WebApplication5\WebApplication5
       dockerfile: Dockerfile
-    image: webapp
+    image: webapplication5
     ports:
     - 80/tcp
 version: '3.0'
