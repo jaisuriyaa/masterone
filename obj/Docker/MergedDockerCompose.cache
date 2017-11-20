@@ -1,0 +1,13 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  webapp:
+    build:
+      context: c:\Users\tfssetup\source\repos\WebApp\WebApp
+      dockerfile: Dockerfile
+    image: webapp
+    ports:
+    - 80/tcp
+version: '3.0'

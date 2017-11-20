@@ -1,0 +1,1 @@
+c:\Users\tfssetup\source\repos\WebApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
